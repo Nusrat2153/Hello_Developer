@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Journey</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Header styling */
+        .head-line {
+            text-align: center;
+            font-size: 5em;
+            color: #130303;
+        }
+
+        /* Subscription Card styling */
+   .card1{
+    position: relative;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+    height: 700px;
+    background: url("https://cdn.pixabay.com/photo/2017/03/27/04/37/sunset-2177324_1280.jpg");
+  }
+
+        .card1 p {
+    margin-left: 30px;
+    position: absolute;
+    bottom: 150px;
+    font-size: 20px;
+    width: 500px;
+    color: rgb(239, 239, 16);
+  }
+
+        .card1 .title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    font-size: 150px;
+    color: rgb(251, 251, 246);
+  }
+
+        .card1 input {
+    position: absolute;
+    border-radius: 12px;
+    border: none;
+    right: 220px;
+    bottom: 50px;
+    padding: 24px;
+    width: 400px;
+    background-color: rgb(251, 251, 246);
+  }
+        .card1 button  {
+    background-color: rgb(251, 251, 246);
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+  }
+        /* Video Section styling */
+        .video-section-container {
+            display: flex;
+            max-width: 1400px;
+            margin: 20px auto;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .video-section {
+            position: relative;
+            width: 60%;
+        }
+
+        .video-section video {
+            width: 100%;
+            height: 100%;
+         
+        }
+
+        .video-section .button1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            border: 2px solid white;
+            color: white;
+            font-size: 1.2em;
+            background: transparent;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        /* Text Section styling */
+        .text-section {
+            width: 40%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #f5f8f3;
+        }
+
+        .text-section h1 {
+            font-size: 5em;
+            color: #333;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+
+        /* Footer styling */
+        .footer {
+            background-color: #e06711;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer .high {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div>
+        <h1 class="head-line">Your Mountain Journey</h1>
+    </div>
+
+    <div class="card1">
+        <p>Integrate data from all your apps into a single platform, with perfect memory and predictive capabilities.</p>
+        <p class="title">MOUNTAIN</p>
+        <input type="text" placeholder="Email Address">
+        <button>Climb With Us!</button>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-section-container">
+        <div class="video-section">
+            <video>
+                <source src="https://cdn.pixabay.com/video/2022/11/22/140111-774507949_large.mp4" type="video/mp4">
+            </video>
+            <button class="button1">Lets Climb</button>
+        </div>
+        <div class="text-section">
+            <h1>See Above Your Imagination</h1>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>Thank you❤</p>
+        <p class="high">Terms Privacy</p>
+    </div>
+
+</body>
+</html>
+
